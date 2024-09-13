@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "infosoft"
+version = "0.1.0"
+description = ""
+authors = ["Manulik <125672053+Otocolobus-manules@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.114.1"
+pydantic = {extras = ["email"], version = "^2.9.1"}
+black = "^24.8.0"
+uvicorn = "^0.30.6"
+alembic = "^1.13.2"
+sqlalchemy = "^2.0.34"
+pydantic-settings = "^2.5.2"
+jwt = "^1.3.1"
+pyjwt = "^2.9.0"
+bcrypt = "^4.2.0"
+python-multipart = "^0.0.9"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
